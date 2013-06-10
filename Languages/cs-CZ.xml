@@ -46,7 +46,7 @@
   <Value Id="Y" Text="Y" />
   <Value Id="Z" Text="Z" />
   <Value Id="EditTitle" Text="Titul" />
-  <Value Id="EditRuntime" Text="Délka" />
+  <Value Id="EditRuntime" Text="Délka (hh:mm)" />
   <Value Id="EditYear" Text="Rok" />
   <Value Id="EditSynopsis" Text="Popis děje" />
   <Value Id="EditDirectors" Text="Režisér" />
@@ -67,7 +67,7 @@
   <Value Id="MainSearchMedias" Content="Hledat" />
   <Value Id="MainConfiguration" Content="Nastavení" />
   <Value Id="MainScan" Content="Skener" />
-  <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export probíhá ..." />
+  <Value Id="MainExport" ExportDune="Export Dune" ExportITunes="Export iTunes" Title="Export probíhá ..." ExportZappitiPlayer="Export Zappiti Player" />
   <Value Id="MainEdit" Content="Upravit" />
   <Value Id="MainScrapDetails" Content="Upravit popis" />
   <Value Id="MainScrapPictures" Content="Upravit obrázek" />
@@ -111,8 +111,6 @@
   <Value Id="EditMenuIcons" ToolTip="Změnit ikonu" Text="Ikony:" />
   <Value Id="EditMenuBack" ToolTip="Změnit pozadí" />
   <Value Id="EditMenuBackRollOver" ToolTip="Změna pozadí na přehled" />
-  <Value Id="CategoryContextEdit" Header="Upravit..." />
-  <Value Id="CategoryContextDelete" Header="Odstranit" />
   <Value Id="EditCategoriesLabel" Text="Kategorie :" />
   <Value Id="EditCategoriesKeywords" Text="Popis :" />
   <Value Id="EditMenuOK" Content="Přijmout" />
@@ -121,17 +119,12 @@
   <Value Id="EditCategoriesAdd" ToolTip="Přidat kategorii" />
   <Value Id="MainAddCategory" Content="Nová kategorie" />
   <Value Id="MoreMediaInfosRightClick" Text="Prosím klikněte pravým pro další možnosti..." />
-  <Value Id="CategoryContextReset" Header="Zrušení kategorií" />
-  <Value Id="MainMenuContextReset" Header="Zrušit" />
-  <Value Id="MainMenuContextEdit" Header="Upravit ..." />
-  <Value Id="ABCMenuContextEdit" Header="Upravit ..." />
-  <Value Id="ABCMenuContextReset" Header="Zrušit" />
   <Value Id="DatabaseUpdating" Text="Aktualizace databáze ..." />
   <Value Id="EditGroupSortByName" Content="Třídit podle názvu" />
   <Value Id="SelectPictureTabHeader" Folder="Jacket" Background="Background" />
   <Value Id="SettingsTabFolders" Header="Soubor" />
-  <Value Id="SettingsTabOthers" Header="Ostatní" SendErrorReport="Automaticky odeslat zprávu v vývojáři při chybě." />
-  <Value Id="SettingsTabScrapers" Header="Po startu" MovieScraper="Filmy:" MoviePictureScraper="Film obrázky:" TVShowScraper="Série:" TVShowPictureScraper="Obrázky série:" ScrapOnStarWindows="Spusťte skenování soubor pro spuštění aplikace" />
+  <Value Id="SettingsTabOthers" Header="Ostatní" SendErrorReport="Automaticky odeslat zprávu v vývojáři při chybě." Recents="Počet dnů vzít v úvahu nedávné:" />
+  <Value Id="SettingsTabScrapers" Header="Po startu" MovieScraper="Filmy:" MoviePictureScraper="Film obrázky:" TVShowScraper="Série:" TVShowPictureScraper="Obrázky série:" ScrapOnStarWindows="Spusťte skenování soubor pro spuštění aplikace" SuppressAllAfterFirstExcludedWordFromTitle="Odstranit všechny znaky, po prvním vyloučit termín nalezeno" WordToExludeFromMovies="Slova k vyloučení cenných papírů:" />
   <Value Id="EditSize" Text="Velikost" />
   <Value Id="Loading" Text="Nahrávám ..." />
   <Value Id="NoTitleFoundToScrap" Text="No corresponding film" />
@@ -141,21 +134,21 @@
   <Value Id="ExportTypes" iPhone="iPhone" Dune="Dune" />
   <Value Id="SettingsDefault" Header="Vada" />
   <Value Id="SettingsAdvancedOptions" Header="Pokročilé možnosti" />
-  <Value Id="SettingsTypeExport" ExportDune="Dune export souboru:" ExportITunes="ITunes export souboru:" Body="Definujte svůj soubor s exportem." DoYouHaveADune="Mám Dune" DoYouHaveAniPhone="Mám iPhone / iPad / iPod" DeviceType="Device:" Primary="Priorita" Secondary="Sekundární" Audio="Audio:" Subtitle="Titulky:" Encode="Kódování parametru:" SubtitleRule="Použít titulky:" />
+  <Value Id="SettingsTypeExport" ExportDune="Dune export souboru:" ExportITunes="ITunes export souboru:" Body="Definujte svůj soubor s exportem." DoYouHaveADune="Mám ZappitiPlayer / Dune" DoYouHaveAniPhone="Mám iPhone / iPad / iPod" DeviceType="Device:" Primary="Priorita" Secondary="Sekundární" Audio="Audio:" Subtitle="Titulky:" Encode="Kódování parametru:" SubtitleRule="Použít titulky:" />
   <Value Id="SettingsIsNFS" Content="Formát NFS" />
   <Value Id="SettingsUserName" Text="Login :" />
   <Value Id="SettingsUserPassword" Text="Heslo:" />
   <Value Id="MainScrapPicturesTvShow" Content="Obrázek na pozadí" />
-  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generování souboru internacionalizace" iPhoneItemExportCustomCommand="ITunes souborů generace" ConfigXmlGeneratorCommand="Export konfigurace" MoviesXmlFileGeneratorCommand="Export filmů" AbcXmlFileGeneratorCommand="Export základnu" TvShowsXmlFileGeneratorCommand="Export série" CategoriesXmlFileGeneratorCommand="Export kategorie" RecentsXmlFileGeneratorCommand="Export Poslední" />
+  <Value Id="Export_XML" CreateGlobalizationCustomCommand="Generování souboru internacionalizace" iPhoneItemExportCustomCommand="ITunes souborů generace" ConfigXmlGeneratorCommand="Export konfigurace" MoviesXmlFileGeneratorCommand="Export filmů" AbcXmlFileGeneratorCommand="Export základnu" TvShowsXmlFileGeneratorCommand="Export série" CategoriesXmlFileGeneratorCommand="Export kategorie" RecentsXmlFileGeneratorCommand="Export poslední" />
   <Value Id="SettingsAddFolder" Content="Nová složka" />
   <Value Id="GroupContextState" Seen="Viditelný" Ongoing="Pokračující" Unseen="Není vidět" Stateless="Stateless" />
   <Value Id="RescrapSelect" Content="Vybrat" />
-  <Value Id="WizardWelcome" Body="Vítejte. [br] [br] Tento průvodce vám pomůže nastavit Zappiti. [br] [br] Klikněte na &quot;Řekni, kde vaše videa&quot;, aby nám řekl, kde se vaše filmy." AddMovies="Řekni, kde videa &gt;&gt;" Close="Zavřít" Header="Setup Wizard" />
+  <Value Id="WizardWelcome" Body="Vítejte. [br] [br] Tento průvodce vám pomůže nastavit Zappiti. [br] [br] Klikněte na &quot;Řekni, kde vaše souborů&quot;, aby nám řekl, kde se vaše souborů." Close="Zavřít" Header="Setup Wizard" AddFiles="Řekni, kde vaše souborů &gt;&gt;" />
   <Value Id="WizardAddLocalLocation" Name="Přidat lokální složky" Description="- Vnitřní pevný disk tohoto počítače [br] - Externí pevný disk připojený přes USB / eSATA tento počítač [br] - Pevný disk v dokovací stanici připojen k počítači přes USB / eSATA [br] - Dune přehrávač připojen " Header="Místní složky, USB" Tips="Tipy: Můžete si vybrat ke sdílení těchto složek ve vaší místní síti, nebo k nim přistupovat přímo Dune, pokud je zařízení USB." Folders="Místní disky / USB Devices" />
   <Value Id="WizardAddNetworkLocation" Name="Přidat sdílenou síťovou složku" Description="- Vnitřní pevný disk na síti Duny [br] - Externí pevný disk Dune síti [br] - NAS [br] - Ostatní vzdáleného počítače v síti [br] - sdílené složky sítě [br] " Header="Sdílené síťové složky, NAS ..." Tips="Tipy: Můžete si koupit usb zařízení, NAS, atd. na místě HD LAND." Folders="Umístění v síti" />
-  <Value Id="WizardWhereAreYourMovies" Header="Kde jsou vaše filmy?" Body="Vyberte jednu z možností níže k označení, kde se vaše filmy nebo televizní seriály." Back="&lt;&lt; Předchozí" Close="Zavřít" />
-  <Value Id="WizardAddLocation" Body="Přetáhněte soubory, které chcete přidat do seznamu na pravé straně." YourFolders="Vaše video soubory" Next="Další &gt;&gt;" Back="&lt;&lt; Předchozí" Close="Zavřít" />
-  <Value Id="WizardAddAnotherLocation" Header="Přidat další místo?" Next="Další &gt;&gt;" YourFolders="Shrnout video souborů" Close="Zavřít" />
+  <Value Id="WizardWhereAreYourFiles" Header="Kde jsou vaše souborů?" Body="Vyberte jednu z možností níže k označení, kde se vaše filmy nebo televizní seriály." Back="&lt;&lt; Předchozí" Close="Zavřít" />
+  <Value Id="WizardAddLocation" Body="Přetáhněte soubory, které chcete přidat do seznamu na pravé straně." YourFolders="Vaše soubory" Next="Další &gt;&gt;" Back="&lt;&lt; Předchozí" Close="Zavřít" />
+  <Value Id="WizardAddAnotherLocation" Header="Přidat další místo?" Next="Další &gt;&gt;" YourFolders="Shrnout souborů" Close="Zavřít" />
   <Value Id="FolderDataTemplate" Edit="Změna" Delete="Odstranit" />
   <Value Id="WizardRewriteLocationUrl" Header="Tvorba cesta" Body="Vyberte umístění této složky přístup z DUNE HD přehrávače: [br] (určit, kde bude tento soubor umístěn v konečném znění)" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" ExternLabel="Na externí pevný disk připojený k Dune HD" NetworkLabel="Na NAS serveru, síťové složky, pevný disk interní / externí PC, které" UnknowLabel="Zvyk" Close="Zavřít" InternLabel="Na interní pevný disk Dune HD" />
   <Value Id="LocalRewriteUrlEngineView" Body="Tato složka musí být sdílena v síti, které mohou přistupovat k vaší Dunu." IAccept="Souhlasím sdílet tuto složku." />
@@ -163,13 +156,13 @@
   <Value Id="SettingsPath" Text="Umístění" />
   <Value Id="WizardConfigureType" Header="Typ videa" Body="To složky?" Movie="Obsahuje filmy" TVShow="Obsahuje série" Back="&lt;&lt; Předchozí" Close="Zavřít" Music="Obsahuje hudbu" />
   <Value Id="Folder" Movie="Filmy" TVShow="Série" Music="Hudba" />
-  <Value Id="Settings" PlayerHeader="Hráč" Header="Konfigurace" />
+  <Value Id="Settings" PlayerHeader="Hráč" Header="Konfigurace" AccountHeader="Účet" />
   <Value Id="PlayerConfigView" IsServerRunning="Povolení vzdáleného převzetí." Port="Port:" />
   <Value Id="WizardDownloadMpcPlayer" Header="Download MPC - Home Cinema" Next="Další &gt;&gt;" Close="Zavřít" Body="Stažení, děkuji vám za vaši trpělivost ..." />
   <Value Id="WizardInstallMpcPlayer" Header="Instalace MPC - Home Cinema" Body="Aktuální instalace. " Close="Zavřít" Completed="Gratulujeme, instalace MPC - je Home Cinema úspěšně dokončena." Failed="Instalace se nezdařila z neznámého důvodu." />
   <Value Id="MpcPlayerConfigView" Download="Stáhněte a nainstalujte MPC - Home Cinema" PlayerPath="Cesta:" Browse="Procházet ..." />
   <Value Id="SettingsTabInterface" Header="Rozhraní" Language="Jazyk :" Background="Pozadí" GlassShow="Použít glass effect" ShowHeader="Zobrazit u obrázku popisku druh videa" SeenUnseen="Display seen / unseen state" DynamicZoom="Ikony s dynamickým zoomem" SelectionBox="Dynamic obrysu" Theme="Téma :" />
-  <Value Id="TaskManagerView" Header="Spots během" Close="Zavřít" />
+  <Value Id="TaskManagerView" Header="Aktuální práce" Close="Zavřít" />
   <Value Id="PlayTask" Header="Otevření videa" />
   <Value Id="DownloadVcdTask" Header="Automaticky VirtualCloneDrive" />
   <Value Id="InstallVcdTask" Header="Instalace VirtualCloneDrive" />
@@ -187,14 +180,14 @@
   <Value Id="FirstInitFromTVEpisodeNfoTask" Header="Inicializace informace z epizody" />
   <Value Id="ScanMoviesFolders" Header="Skenování souborů filmy" />
   <Value Id="ScanTVShowFolders" Header="Scan soubory series" />
-  <Value Id="ExportTypeView" Header="Export typ" RegisterZappitiPlayerLabel="Máte Player Zappiti?" RegisterZappitiPlayerButton="Aktivovat nyní!" RegisterZappitiPlayerSmallLabel="Aktivací své Zappiti Player, můžete také exportovat bibliothèquee hudbu." ExportMusic="Export hudby" Close="Zavřít" />
+  <Value Id="ExportTypeView" Header="Export typ" RegisterZappitiPlayerLabel="Máte Zappiti Player?" RegisterZappitiPlayerButton="Aktivovat nyní!" RegisterZappitiPlayerSmallLabel="Aktivací své Zappiti Player, můžete také exportovat bibliothèquee hudbu." ExportMusic="Export hudby" Close="Zavřít" />
   <Value Id="FullExportType" Name="Kompletní" Description="Vaše celá sbírka je zcela vyváží." />
   <Value Id="IncrementalExportType" Name="Inkrementální" Description="Pouze poslední změny provedené od poslední vývozu jsou vyváženy." />
   <Value Id="WizardFinish" Header="Konfigurace je dokončena" Body="Konfigurace Zappiti Media Center je dokončena." Close="Zavřít" Back="&lt;&lt; Předchozí" />
   <Value Id="WizardConfigureExportDevice" Header="Máte nějaké zařízení?" Body="Vyberte zařízení, které vlastníte:" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
-  <Value Id="WizardConfigureDuneExport" Header="Konfigurace Dune" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
-  <Value Id="WizardConfigureITunesExport" Header="Konfigurace iTunes" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
-  <Value Id="GroupContext" GroupTo="Grouper ..." ChangePicture="Změna ..." Delete="Odstranit" Edit="Upravit ..." Play="Lancer ..." Encode="Zakódovat" DeleteEncode="Odstranit zakódovaný soubor" />
+  <Value Id="WizardConfigureDuneExport" Header="Konfigurace Dune HD / Zappiti Player" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
+  <Value Id="WizardConfigureITunesExport" Header="Konfigurace iTunes (iPhone / iPad)" Body="Pokud data exportovat?" Back="&lt;&lt; Předchozí" Next="Další &gt;&gt;" Close="Zavřít" />
+  <Value Id="ContextMenu" GroupTo="Grouper ..." ChangePicture="Změna ..." Delete="Odstranit" Edit="Upravit ..." Play="Lancer ..." Encode="Zakódovat" DeleteEncode="Odstranit zakódovaný soubor" Reset="Zrušit" ResetAllCategories="Zrušení kategorií" />
   <Value Id="EncodeTask" Header="Kódování" />
   <Value Id="EncodingTask" Header="Aktuální kódování" />
   <Value Id="DownloadHandbrakeTask" Header="Stáhnout ruční brzdy" />
@@ -202,9 +195,9 @@
   <Value Id="SubtitleRules" Never="Nikdy" AlwaysIfPossible="Také pokud je to možné" IfPrimaryAudioNotFound="Pouze v případě, preferovaný audio nebyl nalezen" />
   <Value Id="SetSeenStateTask" Header="Aktualizace stavu zobrazení." />
   <Value Id="HashTask" Header="Aktualizace hash souborů." />
-  <Value Id="CategoriesMenu" Action="Akce" Sci-Fi="Sci-fi" Adventure="Dobrodružství" War="Válka" Western="Západní" History="Historický" Drama="Drama" Documentary="Dokumentární" Music="Hudební" Romance="Romance" Classic="Klasický" Animation="Animace" Crime="Polární" Thriller="Detektivka" Horror="Hrůza" Comedy="Komedie" Other="Různý" Fantasy="Fantastický" />
+  <Value Id="CategoriesMenu" Action="Akce" Sci-Fi="Sci-Fi" Adventure="Dobrodružství" War="Válka" Western="Západní" History="Historický" Drama="Drama" Documentary="Dokumentární" Music="Hudební" Romance="Romance" Classic="Klasický" Animation="Animace" Crime="Polární" Thriller="Detektivka" Horror="Hrůza" Comedy="Komedie" Other="Různý" Fantasy="Fantastický" />
   <Value Id="MediaMenu" Video="VIDEO" Music="MUSIC" Photo="FOTO" />
-  <Value Id="FilterMenu" All="Vše" Ongoing="PRŮBĚŽNÉ" Seen="Viditelný" Unseen="Neviditelný" />
+  <Value Id="FilterMenu" All="VŠE" Ongoing="PRŮBĚŽNÉ" Seen="VIDITELNÝ" Unseen="NEVIDITELNÝ" />
   <Value Id="MovieControl" Runtime="DÉLKA" Actors="HRAJÍ" Directors="REŽISÉR" ReleaseDate="ROK" />
   <Value Id="TVEpisodeControl" Actors="HRAJÍ" Directors="REŽISÉR" ReleaseDate="ROK" Runtime="DÉLKA" />
   <Value Id="MarketView" Close="Zavřít" />
@@ -215,4 +208,8 @@
   <Value Id="AlbumView" Genre="Žánr :" Count="Skladby :" ReleaseDate="Datum vydání :" Runtime="Doba trvání :" />
   <Value Id="ScanMusicsFolderTask" Header="Skenování hudebních souborů" />
   <Value Id="FirstInitFromMusicNfoTask" Header="Inicializace informace z hudby" />
+  <Value Id="ResetCategoriesTask" Header="Obnovit kategorií" />
+  <Value Id="AccountConfigView" Email="Váš účet:" Connect="Přihlaste se" Disconnect="Odpojit" SendToCloud="Povolit automatické zálohování do cloudu pro Android." />
+  <Value Id="SignIn" HeaderSignIn="Přihlášení" HeaderRegister="Vytvořit účet" Email="E-mail" Password="Heslo" RepeatPassword="Zopakujte heslo" Firstname="Křestní jméno" Lastname="Název" AlreadyRegistered="Přihlásit mě teď" NewUser="Vytvořit účet" SignIn="Přihlášení" Register="Registrovat" BadCredential="E-mail nebo heslo je neplatné" DuplicateEmail="Existuje již účet spojeny s tímto e-mailem." RegistrationError="Nelze vytvořit účet pro tuto chvíli." NewUserText="Nemusíte Zappiti účet?" AlreadyRegisteredText="Máte již účet Zappiti?" UnableToConnect="Váš účet není přístupný?" Reset="Ano, chci vytvořit nové heslo" ResetInfo="Zadejte e-mail v následujících oblastech uvedených. " HeaderResetPassword="Obnovit heslo" ResetEmailSent="Zkontrolujte svůj e-mail a klikněte na odkaz vám zašleme změnit heslo." ResetEmailNotSent="Nelze resetovat heslo, děkuji ověřit, že e-mail je správné." BadLicence="Nelze načíst podrobnosti účtu." CheckYourConnection="Nelze se připojit k Internetu." />
+  <Value Id="ResetDeviceList" Header="Zapomeňte na autorizovaný přístroj" Body="Vaše uživatelské jméno Zappiti může být spojena s 3 počítače.[BR][BR]Za toto omezení, můžete &quot;zapomenout počítače&quot; přidružit nový počítač na váš účet.[BR][BR]Můžete &quot;zapomenout počítače&quot; až 2 krát na 6 měsíců." ForgetYourComputers="Zapomeňte na počítače" TooMuchReset="Dosáhli jste limit počtu slevu na nulu pro toto období." YouHaveToWait="Musíte počkat {0} Před použitím této funkce." Days="dny" />
 </Dictionary>

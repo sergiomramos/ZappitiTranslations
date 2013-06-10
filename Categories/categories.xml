@@ -4,13 +4,16 @@
     <Keyword lang="fr">Action</Keyword>
     <Keyword lang="fr">Arts Martiaux</Keyword>
     <Keyword lang="en">Action</Keyword>
-    <Keyword lang="de">Aktion</Keyword>
+    <Keyword lang="de">Action</Keyword>
     <Keyword lang="it">Azione</Keyword>
     <Keyword lang="nl">Actie</Keyword>
     <Keyword lang="ru">Боевик</Keyword>
     <Keyword lang="pl">AKCJA</Keyword>
     <Keyword lang="es">Acción</Keyword>
     <Keyword lang="cz">Akce</Keyword>
+    <Keyword lang="pt">Ação</Keyword>
+    <Keyword lang="sv">Action</Keyword>
+    <Keyword lang="sl">Akcijski</Keyword>
   </Category>
   <Category Name="CategorySci-Fi" Icon="SpaceShip">
     <Keyword lang="en">Sci-Fi</Keyword>
@@ -28,10 +31,13 @@
     <Keyword lang="pl">SCI-FI</Keyword>
     <Keyword lang="cz">Sci-fi</Keyword>
     <Keyword lang="es">Ciencia ficción</Keyword>
+    <Keyword lang="pt">Ficção Científica</Keyword>
+    <Keyword lang="sv">Sci-Fi</Keyword>
+    <Keyword lang="sl">Sci-Fi</Keyword>
   </Category>
   <Category Name="CategoryFantastique" Icon="Unicorn">
     <Keyword lang="en">Fantasy</Keyword>
-    <Keyword lang="de">Fantastisch</Keyword>
+    <Keyword lang="de">Fantasy</Keyword>
     <Keyword lang="fr">Fantastique</Keyword>
     <Keyword lang="it">Fantascienza</Keyword>
     <Keyword lang="nl">Fantasy</Keyword>
@@ -39,6 +45,9 @@
     <Keyword lang="pl">Fantastyczny</Keyword>
     <Keyword lang="cz">Fantastický</Keyword>
     <Keyword lang="es">Fantástico</Keyword>
+    <Keyword lang="pt">Fantasia</Keyword>
+    <Keyword lang="sv">Fantasi</Keyword>
+    <Keyword lang="sl">Fantazijski</Keyword>
   </Category>
   <Category Name="CategoryAdventure" Icon="Indiana">
     <Keyword lang="de">Abenteuer</Keyword>
@@ -51,9 +60,12 @@
     <Keyword lang="pl">PRZYGODOWY</Keyword>
     <Keyword lang="cz">Dobrodružství</Keyword>
     <Keyword lang="es">Aventura</Keyword>
+    <Keyword lang="pt">Aventura</Keyword>
+    <Keyword lang="sv">Äventyr</Keyword>
+    <Keyword lang="sl">Avanturni</Keyword>
   </Category>
   <Category Name="CategoryWar" Icon="Tank">
-    <Keyword lang="de">Krieg</Keyword>
+    <Keyword lang="de">Kriegsfilm</Keyword>
     <Keyword lang="en">War</Keyword>
     <Keyword lang="fr">Guerre</Keyword>
     <Keyword lang="it">Guerra</Keyword>
@@ -62,6 +74,9 @@
     <Keyword lang="pl">WOJENNY</Keyword>
     <Keyword lang="cz">Válka</Keyword>
     <Keyword lang="es">Guerra</Keyword>
+    <Keyword lang="pt">Guerra</Keyword>
+    <Keyword lang="sv">Krig</Keyword>
+    <Keyword lang="sl">Vojni</Keyword>
   </Category>
   <Category Name="CategoryWestern" Icon="Sherif">
     <Keyword lang="fr">Western</Keyword>
@@ -73,9 +88,12 @@
     <Keyword lang="pl">WESTERN</Keyword>
     <Keyword lang="cz">Západní</Keyword>
     <Keyword lang="es">Western</Keyword>
+    <Keyword lang="pt">Faroeste</Keyword>
+    <Keyword lang="sv">Western</Keyword>
+    <Keyword lang="sl">Western</Keyword>
   </Category>
   <Category Name="CategoryHistory" Icon="Tower">
-    <Keyword lang="de">Historien</Keyword>
+    <Keyword lang="de">Geschichte</Keyword>
     <Keyword lang="en">History</Keyword>
     <Keyword lang="fr">Historique</Keyword>
     <Keyword lang="fr">Biopic</Keyword>
@@ -86,9 +104,12 @@
     <Keyword lang="pl">HISTORYCZNY</Keyword>
     <Keyword lang="cz">Historický</Keyword>
     <Keyword lang="es">Histórico</Keyword>
+    <Keyword lang="pt">História</Keyword>
+    <Keyword lang="sv">Historia</Keyword>
+    <Keyword lang="sl">Zgodovinski</Keyword>
   </Category>
   <Category Name="CategoryDrama" Icon="Masks">
-    <Keyword lang="de">Drame</Keyword>
+    <Keyword lang="de">Drama</Keyword>
     <Keyword lang="en">Drama</Keyword>
     <Keyword lang="nl">Drama</Keyword>
     <Keyword lang="fr">Drame</Keyword>
@@ -98,6 +119,9 @@
     <Keyword lang="pl">DRAMAT</Keyword>
     <Keyword lang="cz">Drama</Keyword>
     <Keyword lang="es">Drama</Keyword>
+    <Keyword lang="pt">Drama</Keyword>
+    <Keyword lang="sv">Drama</Keyword>
+    <Keyword lang="sl">Drama</Keyword>
   </Category>
   <Category Name="CategoryDocumentary" Icon="Coconut">
     <Keyword lang="de">Dokumentar</Keyword>
@@ -109,6 +133,9 @@
     <Keyword lang="pl">DOKUMENT</Keyword>
     <Keyword lang="cz">Dokumentární</Keyword>
     <Keyword lang="es">Documental</Keyword>
+    <Keyword lang="pt">Documentário</Keyword>
+    <Keyword lang="sv">Dokumentär</Keyword>
+    <Keyword lang="sl">Dokumentarni</Keyword>
   </Category>
   <Category Name="CategoryMusic" Icon="Music">
     <Keyword lang="de">Musik</Keyword>
@@ -120,6 +147,9 @@
     <Keyword lang="pl">MUZYCZNY</Keyword>
     <Keyword lang="cz">Hudební</Keyword>
     <Keyword lang="es">Musical</Keyword>
+    <Keyword lang="pt">Música</Keyword>
+    <Keyword lang="sv">Musik</Keyword>
+    <Keyword lang="sl">Glasbeni</Keyword>
   </Category>
   <Category Name="CategoryRomance" Icon="BrokenHeart">
     <Keyword lang="de">Romantik</Keyword>
@@ -131,9 +161,12 @@
     <Keyword lang="pl">ROMANS</Keyword>
     <Keyword lang="cz">Romance</Keyword>
     <Keyword lang="es">Romance</Keyword>
+    <Keyword lang="pt">Romance</Keyword>
+    <Keyword lang="sv">Romantik</Keyword>
+    <Keyword lang="sl">Romantični</Keyword>
   </Category>
   <Category Name="CategoryClassic" Icon="Chaplin">
-    <Keyword lang="de">Klassik</Keyword>
+    <Keyword lang="de">Klassiker</Keyword>
     <Keyword lang="en">Classic</Keyword>
     <Keyword lang="fr">Classique</Keyword>
     <Keyword lang="it">Classici</Keyword>
@@ -142,6 +175,9 @@
     <Keyword lang="pl">KLASYKA</Keyword>
     <Keyword lang="cz">Klasický</Keyword>
     <Keyword lang="es">Clásico</Keyword>
+    <Keyword lang="pt">Classic</Keyword>
+    <Keyword lang="sv">Klassiker</Keyword>
+    <Keyword lang="sl">Klasični</Keyword>
   </Category>
   <Category Name="CategoryAnimation" Icon="MickeyMouse">
     <Keyword lang="de">Animation</Keyword>
@@ -153,6 +189,9 @@
     <Keyword lang="pl">ANIMACJA</Keyword>
     <Keyword lang="cz">Animace</Keyword>
     <Keyword lang="es">Animación</Keyword>
+    <Keyword lang="pt">Animação</Keyword>
+    <Keyword lang="sv">Tecknat</Keyword>
+    <Keyword lang="sl">Animacijski</Keyword>
   </Category>
   <Category Name="CategoryCrime" Icon="Gun">
     <Keyword lang="de">Krimi</Keyword>
@@ -166,6 +205,9 @@
     <Keyword lang="pl">KRYMINAŁ</Keyword>
     <Keyword lang="cz">Polární</Keyword>
     <Keyword lang="es">Polar</Keyword>
+    <Keyword lang="pt">Crime</Keyword>
+    <Keyword lang="sv">Kriminalare</Keyword>
+    <Keyword lang="sl">Kriminalke</Keyword>
   </Category>
   <Category Name="CategoryThriller" Icon="Scream">
     <Keyword lang="de">Thriller</Keyword>
@@ -177,6 +219,9 @@
     <Keyword lang="pl">Thriller</Keyword>
     <Keyword lang="cz">Detektivka</Keyword>
     <Keyword lang="es">Thriller</Keyword>
+    <Keyword lang="pt">Thriller</Keyword>
+    <Keyword lang="sv">Thriller</Keyword>
+    <Keyword lang="sl">Thriller</Keyword>
   </Category>
   <Category Name="CategoryHorror" Icon="Murderer">
     <Keyword lang="de">Horror</Keyword>
@@ -191,6 +236,9 @@
     <Keyword lang="pl">HORROR</Keyword>
     <Keyword lang="cz">Hrůza</Keyword>
     <Keyword lang="es">Horror</Keyword>
+    <Keyword lang="pt">Terror</Keyword>
+    <Keyword lang="sv">Skräck</Keyword>
+    <Keyword lang="sl">Horror</Keyword>
   </Category>
   <Category Name="CategoryComedy" Icon="Smiley">
     <Keyword lang="de">Komödie</Keyword>
@@ -203,6 +251,9 @@
     <Keyword lang="pl">KOMEDIA</Keyword>
     <Keyword lang="cz">Komedie</Keyword>
     <Keyword lang="es">Comedia</Keyword>
+    <Keyword lang="pt">Comédia</Keyword>
+    <Keyword lang="sv">Komedi</Keyword>
+    <Keyword lang="sl">Komedija</Keyword>
   </Category>
   <Category Name="CategoryOther" Icon="Others">
     <Keyword lang="de">Andere</Keyword>
@@ -214,6 +265,9 @@
     <Keyword lang="pl">OTHER</Keyword>
     <Keyword lang="cz">Různý</Keyword>
     <Keyword lang="es">Varios</Keyword>
+    <Keyword lang="pt">Outros</Keyword>
+    <Keyword lang="sv">Övrigt</Keyword>
+    <Keyword lang="sl">Ostali</Keyword>
     <Keyword lang="--">[Others]</Keyword>
   </Category>
 </Catgories>
